@@ -41,23 +41,6 @@ function startTimer(){
     let secsString = secs < 10 ? `0${secs}` : secs;
     let minsString = mins < 10 ? `0${mins}` : mins;
     
-
     timerDisplay.innerHTML = `${minsString} : ${secsString} : ${msecString}`;
 
 }
-
-// let int = msec is greater than secs. 
-// let timerDisplay = document.querySelector('.timerDisplay');
-// let startBtn = document.getElementById('#startBtn');
-// let stopBtn = document.getElementById('#stopBtn');
-// let resetBtn = document.getElementById('#resetBtn');
-
-// let msec = 0;
-// let secs = 0;
-// let mins = 0;
-
-// let timerId = null;
-
-// startBtn.addEventListener('click',function(){
-    
-// })
